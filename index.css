@@ -1,0 +1,111 @@
+body{
+    background-color: hsl(216, 12%, 8%) ;
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    height: 100vh;
+}
+.box{
+    height: 335px;
+    width: 365px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px  hsl(216, 12%, 8%) ;
+    padding: 10px 10px;
+}
+
+.btn-star{
+    background-color :  hsl(212, 14%, 21%);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+.h4{
+    color:  hsl(0, 0%, 100%);
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.description{
+    color:  hsl(217, 12%, 63%);
+    
+    font-size: smaller;
+}
+
+
+.btn-list{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.btn-option{
+
+    background-color :  hsl(212, 14%, 21%);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+   
+}
+
+.btn-option:hover{
+    background-color :  hsl(25, 97%, 53%); 
+}
+h5{
+    margin: auto;
+    color: hsl(217, 12%, 63%);
+    font-size: large;
+}
+
+.Submit-btn{
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color:  hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: large;
+}
+.Submit-btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:  hsl(25, 97%, 53%);
+}
+.box-container-2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.thanks-img{
+    margin-top: 20px;
+}
+.brif{
+    font-size: x-large;
+    margin: auto;
+    background-color:  hsl(212, 14%, 21%) ;
+    color: hsl(25, 97%, 53%) ;
+    width: 170px;
+    height: 30px;
+    font-size: small;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
